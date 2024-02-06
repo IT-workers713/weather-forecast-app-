@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as px
 from backend import get_data
 st.title("weather forecast app data")
-
+#deployement dans weather
 
 place = st.text_input("place: ")
 days = st.slider(" forecast days" ,min_value=1,max_value=5,help=" select the number of forcasted days")
